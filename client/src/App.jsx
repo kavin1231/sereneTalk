@@ -6,12 +6,11 @@ import LoginPage from "./pages/LoginPage";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-[url('./src/assets/bgImage.svg')] bg-contain ">
       <Routes>
-        <Route path="/" element={<HomePage/>} />
-        <Route path="/profile" element={<ProfilePage/>} />
-        <Route path="/login" element={<LoginPage/>} />
-        
+        <Route path="/" element={<HomePage />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
     </div>
   );
